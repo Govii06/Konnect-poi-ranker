@@ -374,6 +374,11 @@ def main():
         md.append(f"| `{feat}` | {val:.4f} |")
     md.append("")
 
+    # Create the directory rather than assuming it: the demo is the documented
+    # entrypoint, so it must not die on its final line just because docs/ is
+    # absent from a checkout. (It did exactly that once, exiting 1 with
+    # FileNotFoundError after printing every scenario correctly.)
+    OUT_MD.parent.mkdir(parents=True, exist_ok=True)
     OUT_MD.write_text("\n".join(md), encoding="utf-8")
     print(f"\nWrote {OUT_MD}")
 
