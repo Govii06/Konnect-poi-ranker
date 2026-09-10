@@ -200,7 +200,7 @@ The cap is now a **round-robin across channels**: take one POI from each
 channel in turn until full, long-tail first. Every channel is then
 represented in proportion to how many channels there are, not to how
 popular its members happen to be. Same cap, same budget, but long-tail
-coverage rose to **0.545** and the recall ceiling recovered to **0.316**.
+coverage rose to **0.560** and the recall ceiling recovered to **0.316**.
 
 This is the concrete answer to the assignment's question ("how do you
 prevent candidate generation from eliminating relevant but less popular
@@ -348,10 +348,10 @@ this assignment exists to beat:
 |---|---|---|---|
 | Random (same candidate set) | 0.0080 | 0.0291 | 0.0340 |
 | Popularity-only | 0.0037 | 0.0108 | 0.0151 |
-| **This model** | **0.0130** | **0.0451** | **0.0635** |
+| **This model** | **0.0130** | **0.0451** | **0.0614** |
 
 The model beats both baselines on **all three** metrics: **1.63×
-random** and **3.50× popularity-only** on Precision@10, and **4.2×
+random** and **3.50× popularity-only** on Precision@10, and **4.1×
 popularity-only** on NDCG@10. Beating a popularity ranker is the
 assignment's stated objective, and it is beaten decisively rather than
 marginally.
@@ -374,13 +374,13 @@ fancier. Measuring it is why it is here.
 
 ### What counts as success
 
-For this prototype: **personalization well above 0** (0.922 — travelers
+For this prototype: **personalization well above 0** (0.914 — travelers
 demonstrably do not receive the same list), **long-tail coverage well
-above 0** (0.545 — over half of every top-10 comes from below-median-
+above 0** (0.560 — over half of every top-10 comes from below-median-
 popularity POIs, which is the local-discovery goal met head-on),
-**constraint compatibility high** (0.995 — the gate is doing its job;
+**constraint compatibility high** (1.000 — the gate is doing its job;
 highly-ranked POIs are almost always practically usable), **category
-diversity healthy** (0.706 — lists are not ten restaurants), and
+diversity healthy** (0.681 — lists are not ten restaurants), and
 **ranking metrics above both baselines on all three measures**. All are
 computed by `scripts/run_demo.py` and written into
 `docs/example_results.md` on every run.
@@ -401,7 +401,7 @@ results*, not by a test:
   taste; it now runs through the context gate as a real constraint
   (`context_scoring.party_compatibility`) rather than as a feature
   penalty that stronger features could outvote. Constraint compatibility
-  moved 0.865 → 0.995 as a result.
+  moved 0.865 → 1.000 as a result.
 
 ### Reproducibility
 

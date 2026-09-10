@@ -113,5 +113,12 @@ class POITextModel:
 
         sub = self.matrix[[rows[i] for i in known]]
         sims = cosine_similarity(sub, qvec).ravel()
-        out[known] = np.clip(sims, 0.0, 1.0)
+        # Round before the value reaches the ranker. Threaded BLAS reduces in
+        # non-deterministic order, so this cosine can wobble in its last bits
+        # between machines - enough, occasionally, to flip a tree split and
+        # change the reported metrics. Ten decimals is far finer than any
+        # meaningful similarity difference and makes the feature stable
+        # regardless of how the host chooses to thread. (run_demo also pins
+        # thread counts; this belt-and-braces protects library users too.)
+        out[known] = np.round(np.clip(sims, 0.0, 1.0), 10)
         return out
