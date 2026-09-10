@@ -71,7 +71,7 @@ python data/generate_data.py
 
 This writes `data/pois.csv` (320 POIs + 8 injected near-duplicates),
 `data/travelers.csv` (60 synthetic travelers, trips of 2–10 nights), and
-`data/interactions.csv` (~960 historical interactions) for a single
+`data/interactions.csv` (976 historical interactions) for a single
 destination ("Lisbon"). Interactions are sampled from an internal
 ground-truth affinity function, so there is real learnable signal in
 the data (not pure noise).

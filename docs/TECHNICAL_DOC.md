@@ -79,7 +79,7 @@ for a single destination ("Lisbon") to keep the demo runnable locally:
   trip of 2-10 nights on varying dates. Trip length is deliberately
   varied so `trip_duration` is a discriminative feature rather than a
   constant column.
-- **~1,000 interactions** sampled from an internal ground-truth affinity
+- **976 interactions** sampled from an internal ground-truth affinity
   function (traveler interests × POI tags/category/price), so the
   dataset has real, learnable signal rather than pure noise, while the
   ranking model itself never sees that ground-truth function directly —
