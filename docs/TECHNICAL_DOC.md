@@ -200,7 +200,7 @@ The cap is now a **round-robin across channels**: take one POI from each
 channel in turn until full, long-tail first. Every channel is then
 represented in proportion to how many channels there are, not to how
 popular its members happen to be. Same cap, same budget, but long-tail
-coverage rose to **0.560** and the recall ceiling recovered to **0.316**.
+coverage rose to **0.545** and the recall ceiling recovered to **0.316**.
 
 This is the concrete answer to the assignment's question ("how do you
 prevent candidate generation from eliminating relevant but less popular
@@ -348,10 +348,10 @@ this assignment exists to beat:
 |---|---|---|---|
 | Random (same candidate set) | 0.0080 | 0.0291 | 0.0340 |
 | Popularity-only | 0.0037 | 0.0108 | 0.0151 |
-| **This model** | **0.0130** | **0.0451** | **0.0614** |
+| **This model** | **0.0130** | **0.0451** | **0.0635** |
 
 The model beats both baselines on **all three** metrics: **1.63×
-random** and **3.50× popularity-only** on Precision@10, and **4.1×
+random** and **3.50× popularity-only** on Precision@10, and **4.2×
 popularity-only** on NDCG@10. Beating a popularity ranker is the
 assignment's stated objective, and it is beaten decisively rather than
 marginally.
@@ -374,13 +374,13 @@ fancier. Measuring it is why it is here.
 
 ### What counts as success
 
-For this prototype: **personalization well above 0** (0.914 — travelers
+For this prototype: **personalization well above 0** (0.922 — travelers
 demonstrably do not receive the same list), **long-tail coverage well
-above 0** (0.560 — over half of every top-10 comes from below-median-
+above 0** (0.545 — over half of every top-10 comes from below-median-
 popularity POIs, which is the local-discovery goal met head-on),
-**constraint compatibility high** (1.000 — the gate is doing its job;
+**constraint compatibility high** (0.995 — the gate is doing its job;
 highly-ranked POIs are almost always practically usable), **category
-diversity healthy** (0.681 — lists are not ten restaurants), and
+diversity healthy** (0.706 — lists are not ten restaurants), and
 **ranking metrics above both baselines on all three measures**. All are
 computed by `scripts/run_demo.py` and written into
 `docs/example_results.md` on every run.
@@ -401,17 +401,42 @@ results*, not by a test:
   taste; it now runs through the context gate as a real constraint
   (`context_scoring.party_compatibility`) rather than as a feature
   penalty that stronger features could outvote. Constraint compatibility
-  moved 0.865 → 1.000 as a result.
+  moved 0.865 → 0.995 as a result.
 
 ### Reproducibility
 
 Every random draw is explicitly seeded and the demo is deterministic:
-two runs produce byte-identical `docs/example_results.md`, including
-across different `PYTHONHASHSEED` values. This required fixing a real
-bug — candidate generation seeded its long-tail sample with the builtin
-`hash()` of the traveler id, and Python salts string hashing per
-process, so every invocation silently produced a different candidate
-set, a different ranking, and different reported metrics.
+runs produce byte-identical `docs/example_results.md` across repeated
+invocations, `PYTHONHASHSEED` values, and BLAS thread counts. Verified
+by cloning the published repository into a clean virtualenv and checking
+the regenerated file against the committed one.
+
+Two genuine bugs had to be fixed to get there, both the same underlying
+hazard — **Python salts string hashing per process, so anything derived
+from set or hash order changes between runs**:
+
+1. Candidate generation seeded its long-tail sample with the builtin
+   `hash()` of the traveler id, so every invocation drew a different
+   long-tail slice.
+2. `_profile_query()` built the traveler's text query with `list(set)`.
+   Because the vectorizer uses `ngram_range=(1, 2)`, word order decides
+   which bigrams exist — so the query vector, `text_similarity`, the
+   tree splits, and the reported metrics all shifted between runs.
+
+The second was only caught by a **clean-clone reproduction test**, and
+is worth dwelling on: the pipeline looked perfectly reproducible when
+run repeatedly in one working directory, because a single process has a
+stable hash seed for its lifetime and consecutive runs often happen to
+agree. It failed intermittently — roughly one run in three — which is
+exactly the failure mode that survives casual checking and then breaks
+for whoever clones the repository. A first diagnosis blamed threaded
+BLAS reduction order; that turned out to be wrong, though thread counts
+are still pinned in `scripts/run_demo.py` as defence in depth against a
+real, separate class of cross-machine drift.
+
+The lesson generalizes: "it reproduces on my machine" is not the claim
+worth making. The claim worth making is "it reproduces from a fresh
+clone", and that has to be tested rather than assumed.
 
 ## 10. Cold-Start Strategy
 

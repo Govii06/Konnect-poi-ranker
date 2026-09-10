@@ -106,15 +106,15 @@ This will:
                      P@10     R@10   NDCG@10
   random           0.0080   0.0291    0.0340
   popularity       0.0037   0.0108    0.0151
-  MODEL            0.0130   0.0451    0.0614
+  MODEL            0.0130   0.0451    0.0635
   -> lift over random: 1.63x | lift over popularity: 3.50x
 
   CANDIDATE RECALL CEILING    : 0.316   <- hard upper bound on Recall@K
 
-  personalization (1 - Jaccard) : 0.914
-  long-tail coverage            : 0.560
-  constraint compatibility      : 1.000
-  category diversity            : 0.681
+  personalization (1 - Jaccard) : 0.922
+  long-tail coverage            : 0.545
+  constraint compatibility      : 0.995
+  category diversity            : 0.706
 ```
 
 The model beats both baselines on all three ranking metrics. Absolute

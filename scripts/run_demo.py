@@ -18,15 +18,14 @@ import os
 # once they are loaded, these are read-only.
 #
 # Why: threaded BLAS sums floating-point values in whatever order threads
-# finish, so a dot product gives answers that differ in the last bit or two
-# depending on how many cores the machine has. That is normally harmless, but
-# here it perturbs `text_similarity` at ~1e-16, which is occasionally enough to
-# flip a split decision in the gradient-boosted ranker and visibly change the
-# reported metrics. Measured on this project: 1 and 2 threads agreed, 8 threads
-# did not. Since the assignment requires another engineer to *reproduce the
-# reported results*, the demo pins the thread count so the numbers in
-# docs/example_results.md are machine-independent rather than merely
-# machine-consistent. Costs a fraction of a second at this data size.
+# finish, so a dot product can differ in its last bits depending on the host's
+# core count. At this data size the pinning costs a fraction of a second and
+# removes that whole class of cross-machine drift.
+#
+# Note this was NOT the cause of the reproducibility bug found during a
+# clean-clone test - that was an unsorted set feeding a bigram vectorizer
+# (see src/text_features._profile_query). Thread pinning is kept as defence
+# in depth, not as the fix.
 for _v in ("OMP_NUM_THREADS", "OPENBLAS_NUM_THREADS", "MKL_NUM_THREADS",
            "NUMEXPR_NUM_THREADS", "VECLIB_MAXIMUM_THREADS"):
     os.environ.setdefault(_v, "1")

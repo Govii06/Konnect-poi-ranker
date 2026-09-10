@@ -51,7 +51,13 @@ def _profile_query(profile: dict) -> str:
     mixing behavior in here would make this feature partly redundant with
     them - and partly leak-prone at training time.
     """
-    parts = list(profile.get("explicit_interests") or [])
+    # sorted(), NOT list(): `explicit_interests` is a set, and Python salts
+    # string hashing per process, so set iteration order changes between runs.
+    # The vectorizer uses ngram_range=(1, 2), so word ORDER changes which
+    # bigrams exist - which changed the query vector, `text_similarity`, the
+    # tree splits, and ultimately the reported metrics from one run to the
+    # next. This one call is what made the pipeline non-reproducible.
+    parts = sorted(profile.get("explicit_interests") or [])
     pref = profile.get("explicit_preferences") or ""
     if pref and pref != "no preference":
         parts.append(str(pref))
