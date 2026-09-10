@@ -1,0 +1,6 @@
+# Pinned to the exact versions the reported results were produced with.
+# The assignment requires another engineer to reproduce the reported
+# numbers, and unpinned ranges cannot guarantee that.
+pandas==3.0.5
+numpy==2.5.3
+scikit-learn==1.9.0

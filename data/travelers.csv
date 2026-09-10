@@ -1,0 +1,61 @@
+traveler_id,destination,travel_start,travel_end,trip_duration,interests,budget,party_type,mobility,explicit_preferences
+U000,Lisbon,2026-10-10,2026-10-17,7,photography|history|nightlife,high,friends,walking,quiet and scenic places
+U001,Lisbon,2026-11-04,2026-11-06,2,architecture|family activities|museums,high,couple,public_transport,quiet and scenic places
+U002,Lisbon,2026-10-20,2026-10-27,7,architecture|nightlife|beaches|local experiences,high,family,walking,child-friendly only
+U003,Lisbon,2026-10-04,2026-10-09,5,local food|relaxation,low,friends,car,prefer less touristy experiences
+U004,Lisbon,2026-09-25,2026-09-30,5,relaxation|local experiences|nature|museums,low,friends,walking,famous landmarks are acceptable
+U005,Lisbon,2026-11-08,2026-11-13,5,adventure|nightlife|museums|history,high,couple,public_transport,prefer less touristy experiences
+U006,Lisbon,2026-09-21,2026-09-27,6,family activities|history|nightlife|beaches,low,solo,car,no preference
+U007,Lisbon,2026-10-03,2026-10-07,4,art|nature|adventure|architecture,high,couple,walking,prefer less touristy experiences
+U008,Lisbon,2026-10-24,2026-10-30,6,nature|art,high,friends,public_transport,no preference
+U009,Lisbon,2026-10-12,2026-10-17,5,photography|architecture|relaxation|neighborhoods,low,family,walking,famous landmarks are acceptable
+U010,Lisbon,2026-11-07,2026-11-13,6,museums|neighborhoods|relaxation,medium,friends,walking,no preference
+U011,Lisbon,2026-11-03,2026-11-13,10,local experiences|nature|art|neighborhoods,medium,friends,public_transport,no preference
+U012,Lisbon,2026-11-08,2026-11-11,3,history|architecture|beaches|photography,low,solo,car,no preference
+U013,Lisbon,2026-11-11,2026-11-21,10,nightlife|local experiences,low,solo,car,prefer less touristy experiences
+U014,Lisbon,2026-11-12,2026-11-14,2,local food|adventure|photography|neighborhoods,low,friends,car,famous landmarks are acceptable
+U015,Lisbon,2026-10-10,2026-10-12,2,family activities|relaxation|art,low,couple,car,no preference
+U016,Lisbon,2026-10-08,2026-10-10,2,adventure|nightlife|architecture|art,high,solo,walking,quiet and scenic places
+U017,Lisbon,2026-10-13,2026-10-17,4,museums|adventure|neighborhoods|photography,low,couple,walking,famous landmarks are acceptable
+U018,Lisbon,2026-09-17,2026-09-22,5,photography|beaches|architecture|local experiences,low,friends,public_transport,no preference
+U019,Lisbon,2026-09-17,2026-09-19,2,history|nightlife,high,family,walking,child-friendly only
+U020,Lisbon,2026-11-10,2026-11-12,2,relaxation|neighborhoods|nature|shopping,low,friends,walking,quiet and scenic places
+U021,Lisbon,2026-10-22,2026-10-29,7,nature|history|local experiences|family activities,high,family,car,famous landmarks are acceptable
+U022,Lisbon,2026-10-22,2026-10-28,6,shopping|beaches,high,friends,walking,no preference
+U023,Lisbon,2026-11-06,2026-11-12,6,nightlife|shopping|museums|family activities,medium,friends,public_transport,no preference
+U024,Lisbon,2026-09-25,2026-10-02,7,relaxation|photography|local food,low,couple,walking,quiet and scenic places
+U025,Lisbon,2026-10-08,2026-10-13,5,beaches|nightlife|museums|architecture,high,couple,car,famous landmarks are acceptable
+U026,Lisbon,2026-10-31,2026-11-02,2,beaches|museums,low,friends,public_transport,no preference
+U027,Lisbon,2026-09-16,2026-09-20,4,art|relaxation|museums|photography,low,couple,walking,quiet and scenic places
+U028,Lisbon,2026-10-25,2026-10-31,6,photography|relaxation,high,couple,walking,famous landmarks are acceptable
+U029,Lisbon,2026-10-23,2026-10-26,3,architecture|local food|relaxation|nightlife,high,couple,car,quiet and scenic places
+U030,Lisbon,2026-09-28,2026-10-03,5,relaxation|local experiences,medium,family,car,child-friendly only
+U031,Lisbon,2026-10-23,2026-10-25,2,adventure|art|architecture,low,couple,car,quiet and scenic places
+U032,Lisbon,2026-10-31,2026-11-04,4,photography|beaches,high,family,public_transport,child-friendly only
+U033,Lisbon,2026-10-09,2026-10-14,5,photography|relaxation|history,low,couple,walking,quiet and scenic places
+U034,Lisbon,2026-10-23,2026-10-28,5,museums|family activities,low,friends,walking,famous landmarks are acceptable
+U035,Lisbon,2026-09-20,2026-09-25,5,relaxation|photography|adventure,medium,solo,car,prefer less touristy experiences
+U036,Lisbon,2026-10-18,2026-10-23,5,relaxation|photography,medium,solo,public_transport,quiet and scenic places
+U037,Lisbon,2026-11-14,2026-11-16,2,local experiences|family activities,medium,friends,public_transport,famous landmarks are acceptable
+U038,Lisbon,2026-09-23,2026-09-25,2,photography|neighborhoods|local experiences,medium,solo,public_transport,quiet and scenic places
+U039,Lisbon,2026-10-23,2026-10-30,7,relaxation|adventure,high,solo,public_transport,no preference
+U040,Lisbon,2026-10-18,2026-10-23,5,museums|local food|local experiences,low,solo,public_transport,prefer less touristy experiences
+U041,Lisbon,2026-09-21,2026-09-23,2,museums|local experiences|neighborhoods|nature,low,friends,public_transport,no preference
+U042,Lisbon,2026-10-24,2026-10-31,7,photography|nightlife|adventure|family activities,medium,friends,car,no preference
+U043,Lisbon,2026-10-08,2026-10-11,3,neighborhoods|museums|shopping,high,friends,car,famous landmarks are acceptable
+U044,Lisbon,2026-11-01,2026-11-05,4,nightlife|relaxation|photography,low,family,car,no preference
+U045,Lisbon,2026-09-21,2026-09-24,3,local experiences|museums,low,friends,car,famous landmarks are acceptable
+U046,Lisbon,2026-10-09,2026-10-14,5,neighborhoods|nature|relaxation,high,solo,walking,famous landmarks are acceptable
+U047,Lisbon,2026-09-20,2026-09-25,5,adventure|architecture,low,friends,public_transport,quiet and scenic places
+U048,Lisbon,2026-11-13,2026-11-16,3,nature|history,medium,solo,car,quiet and scenic places
+U049,Lisbon,2026-10-25,2026-11-01,7,family activities|nightlife|local experiences|photography,medium,solo,public_transport,famous landmarks are acceptable
+U050,Lisbon,2026-09-17,2026-09-21,4,museums|adventure,high,family,car,child-friendly only
+U051,Lisbon,2026-09-30,2026-10-03,3,local experiences|museums|photography|architecture,high,solo,walking,no preference
+U052,Lisbon,2026-10-27,2026-10-30,3,history|nightlife,medium,friends,public_transport,no preference
+U053,Lisbon,2026-10-20,2026-10-23,3,museums|family activities|local food|local experiences,medium,solo,car,prefer less touristy experiences
+U054,Lisbon,2026-10-23,2026-10-25,2,relaxation|photography|nature|neighborhoods,low,family,public_transport,child-friendly only
+U055,Lisbon,2026-10-17,2026-10-22,5,photography|local food|nightlife,low,couple,car,quiet and scenic places
+U056,Lisbon,2026-11-05,2026-11-12,7,family activities|nightlife,high,family,public_transport,child-friendly only
+U057,Lisbon,2026-10-21,2026-10-26,5,adventure|neighborhoods|photography|nightlife,medium,friends,walking,quiet and scenic places
+U058,Lisbon,2026-10-15,2026-10-18,3,neighborhoods|art|beaches,low,friends,public_transport,prefer less touristy experiences
+U059,Lisbon,2026-11-05,2026-11-07,2,shopping|beaches,medium,couple,public_transport,famous landmarks are acceptable

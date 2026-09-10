@@ -1,0 +1,329 @@
+poi_id,name,category,subcategory,latitude,longitude,description,tags,price_level,rating,review_count,popularity,expected_duration,opening_hour,closing_hour,reservation_required,accessibility
+P0000,Monument #0,Historical Site,Monument,38.703837,-9.187212,"A monument known for accessible, family-friendly vibes.",accessible|family-friendly|indoor|lively|local,1,4.5,21.0,56,120,7.0,23.0,False,True
+P0001,Local Market #1,Neighborhood Experience,Local Market,38.745323,-9.158079,"A local market known for authentic, local vibes.",authentic|local|outdoor,1,5.0,28.0,54,180,7.0,18.0,False,True
+P0002,Art Museum #2,Museum,Art Museum,38.709466,-9.160573,"A art museum known for family-friendly, local vibes.",family-friendly|local|outdoor|romantic|touristy,4,4.2,9.0,35,60,7.0,22.0,False,False
+P0003,Boutique #3,Shopping,Boutique,38.72126,-9.093926,"A boutique known for accessible, hidden-gem vibes.",accessible|hidden-gem|lively|local|outdoor|touristy,3,4.3,11.0,38,60,7.0,18.0,False,True
+P0004,Exhibition #4,Event,Exhibition,38.750723,-9.127659,"A exhibition known for accessible, lively vibes.",accessible|lively|luxury|romantic,2,3.9,24.0,47,150,7.0,23.0,False,True
+P0005,Local Market #5,Neighborhood Experience,Local Market,38.733567,-9.187026,"A local market known for hidden-gem, historic vibes.",hidden-gem|historic|lively|quiet|scenic,3,4.0,8.0,32,180,7.0,18.0,False,False
+P0006,Market #6,Shopping,Market,38.7243,-9.146351,"A market known for local, outdoor vibes.",local|outdoor|quiet,2,4.0,22.0,53,150,10.0,18.0,False,True
+P0007,Boat Trip #7,Activity,Boat Trip,38.713267,-9.198441,"A boat trip known for family-friendly, historic vibes.",family-friendly|historic|lively|local|romantic|scenic,3,4.1,261.0,84,180,7.0,18.0,False,False
+P0008,Mall #8,Shopping,Mall,38.743945,-9.173037,"A mall known for accessible, scenic vibes.",accessible|scenic,1,3.4,19.0,44,60,7.0,17.0,False,True
+P0009,Boat Trip #9,Activity,Boat Trip,38.748932,-9.103527,"A boat trip known for family-friendly, local vibes.",family-friendly|local|modern|outdoor|romantic,1,4.5,21.0,51,150,9.0,23.0,False,True
+P0010,Church #10,Historical Site,Church,38.71894,-9.080542,"A church known for budget, lively vibes.",budget|lively|local|scenic,2,3.8,16.0,39,120,7.0,23.0,False,True
+P0011,Viewpoint #11,Nature/Outdoor,Viewpoint,38.754384,-9.176651,"A viewpoint known for hidden-gem, indoor vibes.",hidden-gem|indoor|touristy,1,3.2,41.0,61,150,10.0,17.0,False,True
+P0012,Art Museum #12,Museum,Art Museum,38.71333,-9.13563,"A art museum known for authentic, hidden-gem vibes.",authentic|hidden-gem|historic|instagrammable|local|luxury|modern,3,4.2,2.0,9,120,8.0,20.0,False,True
+P0013,Viewpoint #13,Nature/Outdoor,Viewpoint,38.72801,-9.13387,"A viewpoint known for accessible, indoor vibes.",accessible|indoor|local|luxury|romantic|touristy,2,3.5,13.0,43,120,8.0,17.0,False,True
+P0014,Local Market #14,Neighborhood Experience,Local Market,38.757046,-9.129015,"A local market known for family-friendly, quiet vibes.",family-friendly|quiet,1,4.5,165.0,81,90,8.0,23.0,False,False
+P0015,Live Music #15,Event,Live Music,38.711507,-9.110337,"A live music known for authentic, hidden-gem vibes.",authentic|hidden-gem|local|outdoor|quiet|touristy,1,3.8,184.0,80,90,7.0,17.0,False,False
+P0016,Castle #16,Historical Site,Castle,38.730132,-9.139095,"A castle known for family-friendly, hidden-gem vibes.",family-friendly|hidden-gem|local|outdoor,2,4.3,49.0,60,45,7.0,22.0,False,False
+P0017,Monument #17,Historical Site,Monument,38.697779,-9.158625,"A monument known for family-friendly, indoor vibes.",family-friendly|indoor|local,2,3.7,10.0,35,45,10.0,17.0,False,True
+P0018,Market #18,Shopping,Market,38.697625,-9.095831,"A market known for authentic, hidden-gem vibes.",authentic|hidden-gem|lively|modern|scenic,1,3.8,19.0,50,45,8.0,20.0,False,True
+P0019,Street Food #19,Restaurant,Street Food,38.796197,-9.146994,"A street food known for instagrammable, touristy vibes.",instagrammable|touristy,1,4.2,4301.0,100,120,8.0,17.0,False,True
+P0020,Art Museum #20,Museum,Art Museum,38.701624,-9.110187,"A art museum known for indoor, local vibes.",indoor|local|scenic,2,4.1,30.0,51,45,7.0,23.0,False,True
+P0021,Viewpoint #21,Nature/Outdoor,Viewpoint,38.738605,-9.138176,"A viewpoint known for budget, indoor vibes.",budget|indoor|quiet|touristy,2,4.5,898.0,100,90,8.0,20.0,False,False
+P0022,Monument #22,Historical Site,Monument,38.724357,-9.181792,"A monument known for accessible, family-friendly vibes.",accessible|family-friendly|hidden-gem|historic|local|romantic,2,3.4,142.0,79,30,8.0,20.0,False,True
+P0023,Boat Trip #23,Activity,Boat Trip,38.750094,-9.172803,"A boat trip known for hidden-gem, modern vibes.",hidden-gem|modern|romantic,2,4.4,19.0,49,30,7.0,23.0,False,True
+P0024,Artisan Street #24,Neighborhood Experience,Artisan Street,38.725869,-9.099281,"A artisan street known for historic, indoor vibes.",historic|indoor|instagrammable|local|outdoor,1,3.3,62.0,65,30,7.0,22.0,False,True
+P0025,Park #25,Nature/Outdoor,Park,38.73121,-9.12928,"A park known for hidden-gem, historic vibes.",hidden-gem|historic|lively|local|luxury,2,4.5,13.0,42,30,8.0,23.0,True,True
+P0026,History Museum #26,Museum,History Museum,38.747722,-9.132307,"A history museum known for luxury, modern vibes.",luxury|modern|touristy,2,4.3,5.0,23,180,7.0,20.0,False,True
+P0027,Church #27,Historical Site,Church,38.721541,-9.085573,"A church known for authentic, budget vibes.",authentic|budget|family-friendly|indoor|scenic,2,3.5,50.0,58,30,8.0,20.0,False,True
+P0028,Walking Area #28,Neighborhood Experience,Walking Area,38.726709,-9.117716,"A walking area known for authentic, local vibes.",authentic|local|romantic|scenic,4,5.0,16.0,38,45,10.0,20.0,False,False
+P0029,Local Market #29,Neighborhood Experience,Local Market,38.696879,-9.084723,"A local market known for local, outdoor vibes.",local|outdoor|scenic,3,3.2,28.0,57,180,9.0,20.0,False,True
+P0030,Park #30,Nature/Outdoor,Park,38.734203,-9.21063,"A park known for historic, luxury vibes.",historic|luxury,3,4.9,10.0,36,30,7.0,23.0,False,False
+P0031,Viewpoint #31,Nature/Outdoor,Viewpoint,38.74451,-9.157398,"A viewpoint known for local, outdoor vibes.",local|outdoor|scenic,1,4.1,79.0,71,30,8.0,20.0,False,False
+P0032,Garden #32,Nature/Outdoor,Garden,38.684928,-9.132373,"A garden known for budget, historic vibes.",budget|historic|modern|romantic,2,4.3,135.0,78,150,9.0,23.0,False,True
+P0033,Mall #33,Shopping,Mall,38.691488,-9.103986,"A mall known for historic, modern vibes.",historic|modern|scenic,1,3.8,4.0,23,45,10.0,23.0,False,True
+P0034,Festival #34,Event,Festival,38.671545,-9.113028,"A festival known for accessible, instagrammable vibes.",accessible|instagrammable|scenic,1,3.9,67.0,60,45,7.0,20.0,False,True
+P0035,Park #35,Nature/Outdoor,Park,38.756367,-9.10114,"A park known for hidden-gem, indoor vibes.",hidden-gem|indoor|local|modern|scenic,3,4.5,3.0,24,45,10.0,23.0,False,True
+P0036,Mall #36,Shopping,Mall,38.78231,-9.187305,"A mall known for instagrammable, local vibes.",instagrammable|local|outdoor|scenic,1,3.4,17.0,49,30,7.0,22.0,False,False
+P0037,Live Music #37,Event,Live Music,38.740169,-9.218962,"A live music known for family-friendly, hidden-gem vibes.",family-friendly|hidden-gem|romantic|touristy,3,4.0,834.0,100,180,10.0,23.0,False,True
+P0038,Exhibition #38,Event,Exhibition,38.728794,-9.137477,"A exhibition known for authentic, hidden-gem vibes.",authentic|hidden-gem|indoor|lively|local|luxury,2,3.8,14.0,39,180,9.0,23.0,False,True
+P0039,Live Music #39,Event,Live Music,38.662582,-9.173602,"A live music known for hidden-gem, historic vibes.",hidden-gem|historic|indoor|luxury,1,3.5,50.0,64,45,8.0,22.0,False,False
+P0040,Ruins #40,Historical Site,Ruins,38.727016,-9.143919,"A ruins known for hidden-gem, local vibes.",hidden-gem|local|outdoor|quiet|romantic,1,4.0,2.0,20,180,7.0,23.0,False,True
+P0041,Viewpoint #41,Nature/Outdoor,Viewpoint,38.749836,-9.054414,"A viewpoint known for authentic, budget vibes.",authentic|budget|hidden-gem|indoor|instagrammable|local|romantic,2,3.6,3.0,25,60,10.0,18.0,False,False
+P0042,Cafe #42,Restaurant,Cafe,38.77846,-9.140078,"A cafe known for authentic, family-friendly vibes.",authentic|family-friendly|local,2,4.1,11.0,35,30,9.0,22.0,True,True
+P0043,Viewpoint #43,Nature/Outdoor,Viewpoint,38.679396,-9.156902,"A viewpoint known for accessible, authentic vibes.",accessible|authentic|historic|local|touristy,1,5.0,10.0,37,30,9.0,18.0,False,False
+P0044,Local Cuisine #44,Restaurant,Local Cuisine,38.724825,-9.100395,"A local cuisine known for hidden-gem, local vibes.",hidden-gem|local|modern|outdoor,4,5.0,46.0,66,150,7.0,23.0,False,True
+P0045,Workshop #45,Activity,Workshop,38.726083,-9.215195,"A workshop known for budget, luxury vibes.",budget|luxury|romantic|touristy,2,4.5,331.0,95,30,7.0,20.0,False,False
+P0046,Market #46,Shopping,Market,38.756387,-9.119243,"A market known for family-friendly, indoor vibes.",family-friendly|indoor|touristy,1,4.4,26.0,55,150,7.0,23.0,False,True
+P0047,Mall #47,Shopping,Mall,38.703619,-9.147625,"A mall known for authentic, family-friendly vibes.",authentic|family-friendly|local|quiet,3,4.3,14.0,40,90,9.0,22.0,False,True
+P0048,Boat Trip #48,Activity,Boat Trip,38.670807,-9.181018,"A boat trip known for authentic, hidden-gem vibes.",authentic|hidden-gem|instagrammable|lively|local|modern,3,4.2,1.0,16,180,7.0,20.0,False,True
+P0049,Exhibition #49,Event,Exhibition,38.748603,-9.117231,"A exhibition known for authentic, hidden-gem vibes.",authentic|hidden-gem|indoor|local|luxury|quiet,3,3.9,1.0,7,180,9.0,20.0,False,True
+P0050,Boat Trip #50,Activity,Boat Trip,38.704553,-9.117416,"A boat trip known for accessible, outdoor vibes.",accessible|outdoor|touristy,3,4.8,1401.0,100,30,8.0,22.0,False,False
+P0051,Exhibition #51,Event,Exhibition,38.746018,-9.113986,"A exhibition known for budget, hidden-gem vibes.",budget|hidden-gem|local|romantic|touristy,2,3.8,25.0,41,150,9.0,22.0,False,True
+P0052,Viewpoint #52,Nature/Outdoor,Viewpoint,38.747919,-9.150142,"A viewpoint known for budget, historic vibes.",budget|historic|modern|romantic|touristy,4,4.1,22.0,46,150,8.0,18.0,False,True
+P0053,Tour #53,Activity,Tour,38.721872,-9.131224,"A tour known for indoor, luxury vibes.",indoor|luxury|modern|touristy,2,3.8,366.0,89,45,9.0,17.0,False,True
+P0054,Local Cuisine #54,Restaurant,Local Cuisine,38.74115,-9.13979,"A local cuisine known for authentic, budget vibes.",authentic|budget|instagrammable|local|touristy,1,4.5,12.0,36,90,10.0,20.0,True,True
+P0055,Live Music #55,Event,Live Music,38.772559,-9.103741,"A live music known for instagrammable, local vibes.",instagrammable|local|scenic,3,4.4,37.0,58,30,8.0,18.0,False,False
+P0056,Castle #56,Historical Site,Castle,38.681596,-9.202566,"A castle known for authentic, indoor vibes.",authentic|indoor,2,3.9,126.0,76,90,9.0,23.0,False,True
+P0057,Bakery #57,Restaurant,Bakery,38.716683,-9.209031,"A bakery known for accessible, hidden-gem vibes.",accessible|hidden-gem|local|outdoor,3,4.3,147.0,82,45,8.0,23.0,True,True
+P0058,Exhibition #58,Event,Exhibition,38.769401,-9.151393,,budget|lively|local|modern|romantic|touristy,2,,,53,30,,,False,True
+P0059,Walking Area #59,Neighborhood Experience,Walking Area,38.738381,-9.105693,"A walking area known for budget, indoor vibes.",budget|indoor,1,4.5,4.0,29,30,7.0,18.0,False,True
+P0060,Workshop #60,Activity,Workshop,38.710263,-9.130336,"A workshop known for hidden-gem, modern vibes.",hidden-gem|modern,1,4.5,22.0,49,120,10.0,22.0,False,True
+P0061,Mall #61,Shopping,Mall,38.693287,-9.08183,"A mall known for historic, local vibes.",historic|local|romantic|touristy,4,3.8,37.0,54,120,7.0,20.0,False,False
+P0062,History Museum #62,Museum,History Museum,38.700177,-9.120791,"A history museum known for historic, luxury vibes.",historic|luxury|modern|outdoor|quiet|touristy,1,4.0,427.0,90,180,10.0,17.0,False,True
+P0063,Garden #63,Nature/Outdoor,Garden,38.733174,-9.116446,"A garden known for local, luxury vibes.",local|luxury|quiet,1,3.2,11.0,42,150,10.0,23.0,True,True
+P0064,Workshop #64,Activity,Workshop,38.741767,-9.108089,"A workshop known for local, scenic vibes.",local|scenic,1,4.1,221.0,85,90,7.0,18.0,False,True
+P0065,Exhibition #65,Event,Exhibition,38.708225,-9.207825,"A exhibition known for budget, family-friendly vibes.",budget|family-friendly|historic|outdoor|touristy,4,4.8,162.0,85,150,10.0,17.0,True,True
+P0066,Artisan Street #66,Neighborhood Experience,Artisan Street,38.707769,-9.073746,"A artisan street known for hidden-gem, historic vibes.",hidden-gem|historic|local|modern,3,4.3,129.0,76,180,7.0,22.0,False,True
+P0067,History Museum #67,Museum,History Museum,38.674326,-9.194044,"A history museum known for accessible, authentic vibes.",accessible|authentic|historic|local|outdoor,2,4.0,42.0,60,90,8.0,22.0,False,True
+P0068,Art Museum #68,Museum,Art Museum,38.714252,-9.160016,"A art museum known for authentic, hidden-gem vibes.",authentic|hidden-gem|quiet|scenic,3,2.5,46.0,63,60,9.0,23.0,False,True
+P0069,History Museum #69,Museum,History Museum,38.714227,-9.079738,"A history museum known for hidden-gem, historic vibes.",hidden-gem|historic|lively|quiet|scenic|touristy,1,3.7,526.0,100,90,10.0,20.0,False,False
+P0070,Artisan Street #70,Neighborhood Experience,Artisan Street,38.729511,-9.106366,"A artisan street known for authentic, indoor vibes.",authentic|indoor|lively|local|luxury,1,4.2,7.0,40,90,10.0,18.0,False,True
+P0071,Park #71,Nature/Outdoor,Park,38.724523,-9.074155,"A park known for family-friendly, hidden-gem vibes.",family-friendly|hidden-gem|lively|local|romantic,3,5.0,68.0,60,45,7.0,22.0,False,True
+P0072,Mall #72,Shopping,Mall,38.717979,-9.134178,"A mall known for quiet, scenic vibes.",quiet|scenic|touristy,2,4.8,360.0,90,60,10.0,23.0,True,True
+P0073,Tour #73,Activity,Tour,38.720041,-9.18335,"A tour known for authentic, romantic vibes.",authentic|romantic,1,4.1,9.0,37,30,10.0,18.0,False,False
+P0074,Street Food #74,Restaurant,Street Food,38.722752,-9.193927,"A street food known for hidden-gem, lively vibes.",hidden-gem|lively|local|modern,3,4.4,191.0,84,120,10.0,23.0,False,True
+P0075,Art Museum #75,Museum,Art Museum,38.691243,-9.161446,"A art museum known for family-friendly, hidden-gem vibes.",family-friendly|hidden-gem|indoor|instagrammable|local|modern,2,4.1,16.0,39,90,9.0,17.0,False,True
+P0076,Boat Trip #76,Activity,Boat Trip,38.695297,-9.1344,"A boat trip known for family-friendly, hidden-gem vibes.",family-friendly|hidden-gem|luxury,1,4.2,58.0,71,90,9.0,22.0,False,True
+P0077,Market #77,Shopping,Market,38.703689,-9.168756,"A market known for indoor, scenic vibes.",indoor|scenic,1,4.6,17.0,47,150,9.0,17.0,False,True
+P0078,Tour #78,Activity,Tour,38.770213,-9.149417,"A tour known for hidden-gem, instagrammable vibes.",hidden-gem|instagrammable|modern,1,4.3,18.0,46,180,9.0,18.0,False,True
+P0079,Science Museum #79,Museum,Science Museum,38.751359,-9.178191,"A science museum known for hidden-gem, modern vibes.",hidden-gem|modern|touristy,2,4.2,6.0,30,60,8.0,17.0,False,True
+P0080,Boutique #80,Shopping,Boutique,38.739585,-9.091716,,budget|historic|lively,1,,,55,45,,,False,True
+P0081,Park #81,Nature/Outdoor,Park,38.749617,-9.097087,"A park known for budget, family-friendly vibes.",budget|family-friendly|quiet|romantic|scenic,2,4.3,32.0,57,180,9.0,17.0,False,True
+P0082,Ruins #82,Historical Site,Ruins,38.764027,-9.219603,"A ruins known for authentic, hidden-gem vibes.",authentic|hidden-gem|historic|quiet|scenic,1,5.0,3.0,25,45,10.0,17.0,False,False
+P0083,Garden #83,Nature/Outdoor,Garden,38.67316,-9.119437,"A garden known for family-friendly, hidden-gem vibes.",family-friendly|hidden-gem|instagrammable,1,4.2,195.0,81,30,8.0,17.0,False,True
+P0084,Live Music #84,Event,Live Music,38.726656,-9.067493,"A live music known for budget, indoor vibes.",budget|indoor|local,3,4.6,11.0,38,150,10.0,23.0,False,True
+P0085,Mall #85,Shopping,Mall,38.738601,-9.165805,,authentic|instagrammable,2,,,68,150,,,False,False
+P0086,Park #86,Nature/Outdoor,Park,38.77357,-9.0998,"A park known for budget, hidden-gem vibes.",budget|hidden-gem|lively|local|outdoor|touristy,1,4.3,21.0,51,180,10.0,17.0,False,True
+P0087,Local Cuisine #87,Restaurant,Local Cuisine,38.671754,-9.169219,"A local cuisine known for budget, indoor vibes.",budget|indoor|local|modern|scenic,2,4.6,31.0,45,120,8.0,23.0,True,False
+P0088,Park #88,Nature/Outdoor,Park,38.704993,-9.105872,"A park known for budget, historic vibes.",budget|historic,3,4.7,34.0,51,180,8.0,17.0,False,True
+P0089,Street Food #89,Restaurant,Street Food,38.716209,-9.124454,"A street food known for family-friendly, hidden-gem vibes.",family-friendly|hidden-gem|local|quiet,4,4.5,42.0,56,90,7.0,17.0,False,False
+P0090,Ruins #90,Historical Site,Ruins,38.732895,-9.118023,"A ruins known for hidden-gem, indoor vibes.",hidden-gem|indoor|modern|touristy,3,4.3,8.0,37,90,10.0,22.0,False,True
+P0091,Live Music #91,Event,Live Music,38.753348,-9.227624,"A live music known for budget, local vibes.",budget|local|quiet,3,4.5,116.0,75,150,9.0,22.0,False,True
+P0092,Exhibition #92,Event,Exhibition,38.788554,-9.059378,,accessible|authentic|hidden-gem|quiet|romantic,1,,,41,180,,,False,True
+P0093,Viewpoint #93,Nature/Outdoor,Viewpoint,38.725169,-9.174693,"A viewpoint known for authentic, hidden-gem vibes.",authentic|hidden-gem|luxury|outdoor|romantic,3,4.6,19.0,47,45,10.0,17.0,False,True
+P0094,Boutique #94,Shopping,Boutique,38.709841,-9.113989,"A boutique known for budget, historic vibes.",budget|historic|modern|touristy,4,4.4,46.0,69,90,9.0,22.0,False,False
+P0095,Boat Trip #95,Activity,Boat Trip,38.69779,-9.078909,"A boat trip known for historic, lively vibes.",historic|lively|local|modern|romantic,3,3.7,92.0,72,45,7.0,20.0,False,True
+P0096,Boat Trip #96,Activity,Boat Trip,38.692937,-9.157072,"A boat trip known for authentic, local vibes.",authentic|local|modern,1,4.1,19.0,48,60,7.0,18.0,False,False
+P0097,Viewpoint #97,Nature/Outdoor,Viewpoint,38.718247,-9.071053,"A viewpoint known for budget, luxury vibes.",budget|luxury,2,4.2,68.0,68,45,7.0,17.0,False,True
+P0098,Market #98,Shopping,Market,38.701892,-9.206478,"A market known for budget, instagrammable vibes.",budget|instagrammable|lively|local|luxury,3,3.6,115.0,71,120,7.0,17.0,False,False
+P0099,Local Cuisine #99,Restaurant,Local Cuisine,38.723707,-9.068013,"A local cuisine known for authentic, hidden-gem vibes.",authentic|hidden-gem|indoor|local|modern,4,4.1,220.0,86,180,7.0,20.0,False,True
+P0100,Exhibition #100,Event,Exhibition,38.761355,-9.164397,"A exhibition known for hidden-gem, indoor vibes.",hidden-gem|indoor|local|modern|outdoor|touristy,1,3.9,63.0,63,45,8.0,20.0,False,True
+P0101,Exhibition #101,Event,Exhibition,38.755126,-9.206999,"A exhibition known for budget, historic vibes.",budget|historic|lively|local|luxury|outdoor,1,4.2,121.0,81,150,9.0,17.0,False,False
+P0102,Boutique #102,Shopping,Boutique,38.761865,-9.147701,"A boutique known for family-friendly, hidden-gem vibes.",family-friendly|hidden-gem|local|modern|outdoor|quiet,4,4.4,17.0,41,60,7.0,22.0,True,True
+P0103,Exhibition #103,Event,Exhibition,38.721145,-9.157039,"A exhibition known for authentic, family-friendly vibes.",authentic|family-friendly|instagrammable|local|touristy,3,4.6,248.0,86,120,7.0,22.0,False,False
+P0104,Walking Area #104,Neighborhood Experience,Walking Area,38.720671,-9.148537,"A walking area known for family-friendly, historic vibes.",family-friendly|historic|romantic,2,2.9,9.0,38,60,9.0,18.0,False,True
+P0105,Local Market #105,Neighborhood Experience,Local Market,38.677759,-9.140781,"A local market known for family-friendly, luxury vibes.",family-friendly|luxury|scenic,2,4.2,49.0,62,120,10.0,23.0,False,False
+P0106,Garden #106,Nature/Outdoor,Garden,38.694983,-9.174135,"A garden known for budget, hidden-gem vibes.",budget|hidden-gem|indoor|local|touristy,2,3.9,146.0,71,60,7.0,20.0,False,True
+P0107,Live Music #107,Event,Live Music,38.766262,-9.127176,"A live music known for lively, local vibes.",lively|local|modern,1,3.5,101.0,76,180,7.0,23.0,False,True
+P0108,Cafe #108,RESTAURANT,Cafe,38.755045,-9.089457,"A cafe known for hidden-gem, historic vibes.",hidden-gem|historic|instagrammable|local|quiet,1,2.9,65.0,57,30,9.0,17.0,False,True
+P0109,Artisan Street #109,Neighborhood Experience,Artisan Street,38.716782,-9.118748,"A artisan street known for accessible, budget vibes.",accessible|budget|hidden-gem|instagrammable|local|luxury,2,4.3,10.0,36,150,7.0,20.0,False,True
+P0110,Market #110,Shopping,Market,38.65707,-9.170121,,budget|modern|quiet|touristy,2,,,69,60,,,False,False
+P0111,Boat Trip #111,Activity,Boat Trip,38.736981,-9.188185,"A boat trip known for accessible, authentic vibes.",accessible|authentic|budget|lively|quiet,1,3.9,40.0,60,30,10.0,23.0,False,True
+P0112,Art Museum #112,Museum,Art Museum,38.690574,-9.163437,"A art museum known for family-friendly, instagrammable vibes.",family-friendly|instagrammable|local|outdoor|romantic,2,4.1,11.0,37,180,7.0,23.0,False,False
+P0113,Street Food #113,Restaurant,Street Food,38.775241,-9.18896,"A street food known for budget, family-friendly vibes.",budget|family-friendly|local|scenic,2,3.4,75.0,64,120,8.0,22.0,True,True
+P0114,Walking Area #114,Neighborhood Experience,Walking Area,38.752771,-9.164392,"A walking area known for hidden-gem, historic vibes.",hidden-gem|historic|indoor|local|romantic,3,4.0,42.0,63,90,8.0,20.0,False,True
+P0115,Festival #115,Event,Festival,38.734274,-9.140805,"A festival known for authentic, family-friendly vibes.",authentic|family-friendly|instagrammable|local|scenic,3,3.9,9.0,40,180,9.0,17.0,False,False
+P0116,Monument #116,Historical Site,Monument,38.63878,-9.10451,"A monument known for budget, family-friendly vibes.",budget|family-friendly|hidden-gem|indoor|luxury,2,5.0,97.0,75,90,7.0,18.0,False,False
+P0117,Cafe #117,Restaurant,Cafe,38.715628,-9.127408,"A cafe known for lively, local vibes.",lively|local|scenic,3,3.7,10.0,39,60,8.0,17.0,True,True
+P0118,Park #118,Nature/Outdoor,Park,38.763075,-9.145248,"A park known for hidden-gem, modern vibes.",hidden-gem|modern|touristy,2,4.2,115.0,71,45,10.0,22.0,False,False
+P0119,Street Food #119,Restaurant,Street Food,38.769415,-9.17945,"A street food known for authentic, budget vibes.",authentic|budget|hidden-gem|touristy,4,5.0,70.0,68,30,7.0,18.0,False,False
+P0120,Live Music #120,Event,Live Music,38.765948,-9.124436,"A live music known for instagrammable, local vibes.",instagrammable|local,1,4.0,23.0,49,150,8.0,20.0,False,True
+P0121,Artisan Street #121,Neighborhood Experience,Artisan Street,38.6801,-9.176229,"A artisan street known for accessible, family-friendly vibes.",accessible|family-friendly|historic|luxury|touristy,2,3.9,5.0,22,180,7.0,22.0,False,True
+P0122,Market #122,Shopping,Market,38.738954,-9.209491,"A market known for lively, local vibes.",lively|local|scenic|touristy,2,4.1,14.0,41,150,7.0,23.0,False,True
+P0123,Street Food #123,RESTAURANT,Street Food,38.702537,-9.206882,,hidden-gem|indoor|lively|luxury,3,,,38,30,,,True,True
+P0124,Local Market #124,Neighborhood Experience,Local Market,38.668883,-9.108581,"A local market known for authentic, hidden-gem vibes.",authentic|hidden-gem|historic|local|modern|scenic,2,3.7,3.0,28,150,8.0,20.0,False,False
+P0125,Viewpoint #125,Nature/Outdoor,Viewpoint,38.751477,-9.114428,"A viewpoint known for authentic, lively vibes.",authentic|lively,1,4.5,3.0,15,90,9.0,18.0,False,True
+P0126,Tour #126,Activity,Tour,38.780676,-9.111635,"A tour known for accessible, authentic vibes.",accessible|authentic|family-friendly|instagrammable|modern,3,4.3,5.0,33,30,9.0,20.0,False,True
+P0127,Boutique #127,Shopping,Boutique,38.744334,-9.150633,"A boutique known for accessible, hidden-gem vibes.",accessible|hidden-gem|lively|local|luxury,3,4.3,67.0,66,150,7.0,17.0,False,True
+P0128,Art Museum #128,Museum,Art Museum,38.683998,-9.182542,"A art museum known for family-friendly, hidden-gem vibes.",family-friendly|hidden-gem|local|touristy,3,4.3,1.0,15,60,9.0,22.0,False,True
+P0129,Science Museum #129,Museum,Science Museum,38.719888,-9.157918,"A science museum known for accessible, indoor vibes.",accessible|indoor|lively|scenic|touristy,3,4.8,574.0,100,120,8.0,23.0,False,True
+P0130,Tour #130,Activity,Tour,38.804556,-9.136114,"A tour known for local, luxury vibes.",local|luxury,2,3.8,3.0,25,120,7.0,20.0,False,False
+P0131,Artisan Street #131,Neighborhood Experience,Artisan Street,38.736855,-9.133488,,family-friendly|instagrammable|outdoor|touristy,2,,,53,150,,,False,False
+P0132,Garden #132,Nature/Outdoor,Garden,38.723711,-9.090373,,budget|family-friendly|hidden-gem|modern,2,,,76,150,,,False,True
+P0133,Local Market #133,Neighborhood Experience,Local Market,38.739336,-9.171541,"A local market known for instagrammable, local vibes.",instagrammable|local|luxury,1,3.4,26.0,50,180,8.0,23.0,False,True
+P0134,Mall #134,Shopping,Mall,38.713846,-9.193078,"A mall known for accessible, authentic vibes.",accessible|authentic|local|modern|outdoor|scenic,2,4.0,30.0,49,150,7.0,22.0,False,True
+P0135,Science Museum #135,Museum,Science Museum,38.714808,-9.177438,"A science museum known for authentic, budget vibes.",authentic|budget|hidden-gem|historic,4,4.4,9.0,34,30,8.0,20.0,False,True
+P0136,Walking Area #136,Neighborhood Experience,Walking Area,38.697532,-9.046911,"A walking area known for family-friendly, historic vibes.",family-friendly|historic|quiet|romantic,1,4.1,100.0,69,150,9.0,23.0,False,True
+P0137,Science Museum #137,Museum,Science Museum,38.712352,-9.114574,"A science museum known for authentic, luxury vibes.",authentic|luxury|quiet|touristy,1,4.8,1482.0,100,120,7.0,17.0,False,False
+P0138,Boat Trip #138,Activity,Boat Trip,38.705636,-9.164795,"A boat trip known for authentic, indoor vibes.",authentic|indoor|local,1,3.9,1.0,15,150,9.0,22.0,False,False
+P0139,Market #139,Shopping,Market,38.736389,-9.20726,"A market known for accessible, family-friendly vibes.",accessible|family-friendly|indoor|outdoor|touristy,2,5.0,540.0,99,90,10.0,18.0,False,True
+P0140,Garden #140,Nature/Outdoor,Garden,38.711003,-9.167508,"A garden known for accessible, budget vibes.",accessible|budget|hidden-gem|luxury|scenic,2,4.4,27.0,49,45,10.0,17.0,False,True
+P0141,Monument #141,Historical Site,Monument,38.710669,-9.127865,"A monument known for authentic, instagrammable vibes.",authentic|instagrammable|romantic|scenic,2,3.9,43.0,60,120,9.0,18.0,False,True
+P0142,Festival #142,Event,Festival,38.696698,-9.137476,"A festival known for instagrammable, local vibes.",instagrammable|local|outdoor|touristy,4,3.7,36.0,53,45,9.0,17.0,False,True
+P0143,Festival #143,Event,Festival,38.696193,-9.091075,"A festival known for authentic, local vibes.",authentic|local|romantic,1,2.5,6.0,31,60,10.0,20.0,True,True
+P0144,Walking Area #144,Neighborhood Experience,Walking Area,38.741439,-9.095234,"A walking area known for family-friendly, historic vibes.",family-friendly|historic|indoor|scenic,1,4.4,57.0,63,120,7.0,18.0,False,True
+P0145,Garden #145,Nature/Outdoor,Garden,38.700025,-9.176431,"A garden known for budget, hidden-gem vibes.",budget|hidden-gem|historic|local|modern|outdoor,3,3.6,5.0,30,30,8.0,20.0,False,True
+P0146,Science Museum #146,Museum,Science Museum,38.697293,-9.166882,"A science museum known for accessible, family-friendly vibes.",accessible|family-friendly|quiet|touristy,3,4.0,448.0,97,90,9.0,23.0,False,False
+P0147,Exhibition #147,Event,Exhibition,38.703849,-9.149231,"A exhibition known for hidden-gem, instagrammable vibes.",hidden-gem|instagrammable|local|luxury,2,3.8,121.0,72,120,9.0,17.0,False,True
+P0148,Artisan Street #148,Neighborhood Experience,Artisan Street,38.787198,-9.151611,"A artisan street known for instagrammable, luxury vibes.",instagrammable|luxury,3,4.5,4.0,26,180,10.0,18.0,False,True
+P0149,Castle #149,Historical Site,Castle,38.679055,-9.132278,"A castle known for hidden-gem, local vibes.",hidden-gem|local|quiet,1,4.8,33.0,56,45,10.0,23.0,False,False
+P0150,Fine Dining #150,Restaurant,Fine Dining,38.751607,-9.167117,"A fine dining known for historic, instagrammable vibes.",historic|instagrammable|local|quiet,1,4.6,12.0,39,90,9.0,23.0,True,False
+P0151,Boat Trip #151,Activity,Boat Trip,38.700104,-9.207503,"A boat trip known for budget, hidden-gem vibes.",budget|hidden-gem|historic|indoor|local|outdoor,1,5.0,138.0,82,60,9.0,18.0,False,True
+P0152,Festival #152,Event,Festival,38.685552,-9.135742,"A festival known for accessible, modern vibes.",accessible|modern|quiet|romantic,3,4.1,112.0,78,90,9.0,18.0,False,True
+P0153,Church #153,Historical Site,Church,38.744234,-9.122066,"A church known for accessible, hidden-gem vibes.",accessible|hidden-gem|historic|instagrammable|local|romantic,3,3.8,13.0,42,60,8.0,17.0,False,True
+P0154,Local Market #154,Neighborhood Experience,Local Market,38.716103,-9.167735,,indoor|instagrammable|touristy,1,,,93,90,,,False,False
+P0155,Bakery #155,Restaurant,Bakery,38.799222,-9.18793,"A bakery known for authentic, indoor vibes.",authentic|indoor|instagrammable,1,3.6,53.0,62,60,9.0,20.0,False,False
+P0156,Castle #156,Historical Site,Castle,38.740525,-9.177075,"A castle known for authentic, hidden-gem vibes.",authentic|hidden-gem|luxury,1,4.4,5.0,29,30,10.0,22.0,False,False
+P0157,Tour #157,Activity,Tour,38.682062,-9.196345,"A tour known for modern, romantic vibes.",modern|romantic,2,4.1,243.0,88,90,10.0,18.0,False,True
+P0158,Local Market #158,Neighborhood Experience,Local Market,38.701868,-9.105674,"A local market known for budget, hidden-gem vibes.",budget|hidden-gem|luxury|quiet,1,4.3,11.0,36,60,9.0,23.0,False,True
+P0159,Market #159,Shopping,Market,38.701655,-9.040409,"A market known for family-friendly, hidden-gem vibes.",family-friendly|hidden-gem|local|quiet|scenic|touristy,2,4.1,27.0,50,60,8.0,17.0,False,True
+P0160,Workshop #160,Activity,Workshop,38.74768,-9.152234,"A workshop known for hidden-gem, historic vibes.",hidden-gem|historic|local|luxury|quiet,2,4.7,59.0,64,30,10.0,20.0,False,True
+P0161,Boat Trip #161,Activity,Boat Trip,38.723107,-9.130965,"A boat trip known for hidden-gem, lively vibes.",hidden-gem|lively|modern,1,4.1,7.0,24,45,10.0,18.0,False,False
+P0162,Viewpoint #162,Nature/Outdoor,Viewpoint,38.754554,-9.114015,"A viewpoint known for hidden-gem, indoor vibes.",hidden-gem|indoor|modern|outdoor|quiet|scenic,3,4.0,15.0,39,90,9.0,17.0,False,True
+P0163,Artisan Street #163,Neighborhood Experience,Artisan Street,38.698344,-9.066821,"A artisan street known for authentic, hidden-gem vibes.",authentic|hidden-gem|luxury|quiet,3,4.3,4.0,26,45,10.0,17.0,False,True
+P0164,Cafe #164,Restaurant,Cafe,38.706243,-9.086604,"A cafe known for accessible, authentic vibes.",accessible|authentic|indoor,2,4.7,67.0,66,150,9.0,17.0,True,False
+P0165,Artisan Street #165,Neighborhood Experience,Artisan Street,38.685864,-9.113289,"A artisan street known for authentic, hidden-gem vibes.",authentic|hidden-gem|local|touristy,2,4.1,48.0,67,30,7.0,22.0,True,True
+P0166,Science Museum #166,Museum,Science Museum,38.706421,-9.114553,"A science museum known for authentic, indoor vibes.",authentic|indoor|lively|local|outdoor|scenic,2,3.7,28.0,57,150,8.0,20.0,False,False
+P0167,Mall #167,Shopping,Mall,38.758253,-9.158888,"A mall known for indoor, local vibes.",indoor|local|scenic,1,3.5,35.0,68,150,10.0,23.0,False,True
+P0168,Festival #168,Event,Festival,38.672242,-9.123331,"A festival known for hidden-gem, historic vibes.",hidden-gem|historic|outdoor,2,4.1,23.0,52,30,10.0,23.0,False,False
+P0169,Fine Dining #169,Restaurant,Fine Dining,38.745344,-9.015105,"A fine dining known for family-friendly, local vibes.",family-friendly|local|modern|romantic,2,4.6,24.0,51,150,7.0,18.0,False,True
+P0170,Artisan Street #170,Neighborhood Experience,Artisan Street,38.775725,-9.204618,"A artisan street known for budget, hidden-gem vibes.",budget|hidden-gem|historic|touristy,2,4.1,40.0,55,150,9.0,23.0,False,True
+P0171,Park #171,Nature/Outdoor,Park,38.653755,-9.158882,"A park known for accessible, budget vibes.",accessible|budget|indoor|local|outdoor,3,3.9,223.0,87,120,8.0,22.0,False,True
+P0172,Garden #172,Nature/Outdoor,Garden,38.713555,-9.20532,"A garden known for accessible, authentic vibes.",accessible|authentic|lively|local|outdoor|quiet,3,4.4,20.0,47,180,10.0,18.0,False,True
+P0173,History Museum #173,Museum,History Museum,38.730566,-9.192303,"A history museum known for accessible, authentic vibes.",accessible|authentic|hidden-gem,1,3.9,22.0,53,45,9.0,18.0,False,True
+P0174,Festival #174,Event,Festival,38.701058,-9.201536,"A festival known for local, outdoor vibes.",local|outdoor|touristy,1,4.8,143.0,76,120,7.0,17.0,False,False
+P0175,Walking Area #175,Neighborhood Experience,Walking Area,38.704601,-9.145839,"A walking area known for hidden-gem, local vibes.",hidden-gem|local|modern|quiet,2,5.0,7.0,27,150,7.0,22.0,False,True
+P0176,Walking Area #176,Neighborhood Experience,Walking Area,38.711822,-9.152165,"A walking area known for modern, outdoor vibes.",modern|outdoor|quiet|touristy,3,4.0,352.0,99,90,9.0,20.0,False,True
+P0177,Festival #177,Event,Festival,38.754983,-9.159958,"A festival known for instagrammable, quiet vibes.",instagrammable|quiet,4,4.3,104.0,72,90,7.0,23.0,False,False
+P0178,Street Food #178,Restaurant,Street Food,38.691251,-9.1469,"A street food known for budget, hidden-gem vibes.",budget|hidden-gem|local|luxury|modern|romantic,2,4.1,8.0,36,90,9.0,20.0,False,True
+P0179,Festival #179,Event,Festival,38.648646,-9.201079,"A festival known for family-friendly, lively vibes.",family-friendly|lively|luxury,2,4.0,2.0,19,120,7.0,23.0,True,False
+P0180,Local Cuisine #180,Restaurant,Local Cuisine,38.737463,-9.1153,"A local cuisine known for budget, family-friendly vibes.",budget|family-friendly|indoor|lively|local|touristy,1,3.8,18.0,42,60,7.0,23.0,False,False
+P0181,Exhibition #181,Event,Exhibition,38.721496,-9.112561,"A exhibition known for accessible, hidden-gem vibes.",accessible|hidden-gem|historic|local|outdoor,3,4.1,10.0,35,60,9.0,17.0,False,True
+P0182,Boutique #182,Shopping,Boutique,38.735777,-9.182366,"A boutique known for budget, local vibes.",budget|local|romantic,3,4.3,85.0,72,60,9.0,20.0,False,True
+P0183,Market #183,Shopping,Market,38.750604,-9.125603,"A market known for hidden-gem, indoor vibes.",hidden-gem|indoor|modern|quiet,2,3.3,22.0,44,180,7.0,17.0,False,True
+P0184,Live Music #184,Event,Live Music,38.734958,-9.074752,"A live music known for family-friendly, local vibes.",family-friendly|local|luxury,3,4.4,148.0,80,180,9.0,23.0,False,False
+P0185,Fine Dining #185,Restaurant,Fine Dining,38.739399,-9.110441,"A fine dining known for historic, instagrammable vibes.",historic|instagrammable|local,2,4.7,22.0,51,60,7.0,18.0,False,True
+P0186,Artisan Street #186,Neighborhood Experience,Artisan Street,38.678439,-9.092437,"A artisan street known for budget, family-friendly vibes.",budget|family-friendly|hidden-gem|local|scenic,1,4.8,108.0,81,180,10.0,23.0,False,False
+P0187,Science Museum #187,Museum,Science Museum,38.682607,-9.073619,"A science museum known for accessible, lively vibes.",accessible|lively|local,2,3.9,33.0,59,180,7.0,20.0,False,True
+P0188,Market #188,Shopping,Market,38.724052,-9.135716,"A market known for hidden-gem, historic vibes.",hidden-gem|historic|local,1,4.5,26.0,46,90,10.0,18.0,False,True
+P0189,Church #189,Historical Site,Church,38.739564,-9.149407,"A church known for accessible, budget vibes.",accessible|budget|family-friendly|local,3,4.5,27.0,53,150,8.0,22.0,False,True
+P0190,Street Food #190,Restaurant,Street Food,38.719443,-9.123684,"A street food known for family-friendly, hidden-gem vibes.",family-friendly|hidden-gem|historic|lively|local|touristy,2,3.5,5.0,23,120,10.0,17.0,True,True
+P0191,Church #191,Historical Site,Church,38.76406,-9.102567,"A church known for hidden-gem, local vibes.",hidden-gem|local|modern|outdoor|scenic,2,4.3,57.0,57,45,8.0,22.0,False,True
+P0192,Workshop #192,Activity,Workshop,38.761732,-9.160913,"A workshop known for family-friendly, local vibes.",family-friendly|local|luxury|outdoor,1,4.2,14.0,44,180,7.0,20.0,False,True
+P0193,Exhibition #193,Event,Exhibition,38.720046,-9.162459,"A exhibition known for family-friendly, hidden-gem vibes.",family-friendly|hidden-gem|local|romantic,2,4.9,98.0,72,60,10.0,20.0,False,True
+P0194,History Museum #194,Museum,History Museum,38.734336,-9.119315,"A history museum known for family-friendly, instagrammable vibes.",family-friendly|instagrammable|luxury|outdoor|touristy,2,4.1,373.0,87,90,9.0,20.0,False,True
+P0195,Walking Area #195,Neighborhood Experience,Walking Area,38.701275,-9.107184,"A walking area known for historic, local vibes.",historic|local|luxury|modern|scenic|touristy,2,4.6,123.0,73,45,7.0,22.0,False,True
+P0196,Boat Trip #196,Activity,Boat Trip,38.735266,-9.184985,"A boat trip known for authentic, instagrammable vibes.",authentic|instagrammable|local,1,3.9,54.0,61,60,8.0,22.0,False,True
+P0197,Exhibition #197,Event,Exhibition,38.718405,-9.137548,"A exhibition known for accessible, authentic vibes.",accessible|authentic|historic|local|scenic,2,4.1,151.0,77,180,7.0,17.0,False,True
+P0198,Park #198,Nature/Outdoor,Park,38.681735,-9.112621,"A park known for quiet, scenic vibes.",quiet|scenic,2,4.6,34.0,49,30,7.0,20.0,False,False
+P0199,Walking Area #199,Neighborhood Experience,Walking Area,38.755421,-9.127193,"A walking area known for accessible, hidden-gem vibes.",accessible|hidden-gem|quiet|scenic,2,4.7,26.0,49,60,7.0,22.0,False,True
+P0200,Monument #200,Historical Site,Monument,38.691857,-9.165271,"A monument known for hidden-gem, lively vibes.",hidden-gem|lively|local|luxury|modern,1,3.9,14.0,37,90,9.0,22.0,False,False
+P0201,Festival #201,Event,Festival,38.728463,-9.193115,"A festival known for hidden-gem, modern vibes.",hidden-gem|modern|touristy,2,3.9,31.0,57,180,9.0,17.0,False,True
+P0202,Artisan Street #202,Neighborhood Experience,Artisan Street,38.685296,-9.1115,"A artisan street known for historic, local vibes.",historic|local|luxury|quiet,2,3.6,59.0,71,180,10.0,18.0,False,True
+P0203,Boutique #203,Shopping,Boutique,38.743132,-9.152373,"A boutique known for authentic, hidden-gem vibes.",authentic|hidden-gem|local|outdoor,2,4.9,27.0,47,60,7.0,23.0,False,False
+P0204,History Museum #204,Museum,History Museum,38.685864,-9.160656,"A history museum known for budget, hidden-gem vibes.",budget|hidden-gem|outdoor|touristy,1,4.9,113.0,68,150,9.0,23.0,False,True
+P0205,Church #205,Historical Site,Church,38.687645,-9.148763,"A church known for authentic, hidden-gem vibes.",authentic|hidden-gem|luxury|quiet|touristy,3,4.6,1684.0,100,150,9.0,23.0,False,True
+P0206,Park #206,Nature/Outdoor,Park,38.739772,-9.182124,"A park known for family-friendly, hidden-gem vibes.",family-friendly|hidden-gem|local|modern|romantic,1,4.5,150.0,74,90,10.0,23.0,False,True
+P0207,History Museum #207,Museum,History Museum,38.673975,-9.161329,"A history museum known for budget, instagrammable vibes.",budget|instagrammable|local|luxury,3,4.2,4.0,28,90,7.0,20.0,False,True
+P0208,Walking Area #208,Neighborhood Experience,Walking Area,38.764362,-9.219057,"A walking area known for authentic, hidden-gem vibes.",authentic|hidden-gem|indoor|instagrammable|lively|local|outdoor,2,4.4,158.0,84,30,8.0,20.0,True,True
+P0209,Tour #209,Activity,Tour,38.754808,-9.068331,"A tour known for budget, instagrammable vibes.",budget|instagrammable|modern|romantic|touristy,1,4.9,20.0,48,60,7.0,22.0,False,False
+P0210,Castle #210,Historical Site,Castle,38.705987,-9.135807,"A castle known for budget, hidden-gem vibes.",budget|hidden-gem|luxury|touristy,3,4.0,8.0,36,180,7.0,18.0,False,False
+P0211,Garden #211,Nature/Outdoor,Garden,38.713296,-9.165317,"A garden known for authentic, budget vibes.",authentic|budget|luxury|romantic|scenic,2,5.0,41.0,60,120,9.0,23.0,False,True
+P0212,Workshop #212,Activity,Workshop,38.732846,-9.101268,"A workshop known for accessible, family-friendly vibes.",accessible|family-friendly|romantic|scenic,1,3.8,19.0,33,60,8.0,18.0,False,False
+P0213,Artisan Street #213,Neighborhood Experience,Artisan Street,38.736895,-9.136721,"A artisan street known for accessible, budget vibes.",accessible|budget|instagrammable|modern|quiet,2,4.2,5.0,20,30,7.0,22.0,False,True
+P0214,Viewpoint #214,Nature/Outdoor,Viewpoint,38.715379,-9.191791,"A viewpoint known for authentic, lively vibes.",authentic|lively|local|quiet|scenic,2,4.2,7.0,26,150,9.0,17.0,False,True
+P0215,Boutique #215,Shopping,Boutique,38.712187,-9.163836,"A boutique known for authentic, budget vibes.",authentic|budget|hidden-gem|historic|luxury|quiet,3,4.3,7.0,31,180,10.0,20.0,False,False
+P0216,Local Cuisine #216,Restaurant,Local Cuisine,38.741082,-9.16861,"A local cuisine known for authentic, family-friendly vibes.",authentic|family-friendly|hidden-gem|local|romantic,1,3.6,5.0,25,90,8.0,18.0,False,True
+P0217,Tour #217,Activity,Tour,38.715557,-9.186105,"A tour known for family-friendly, hidden-gem vibes.",family-friendly|hidden-gem|historic|luxury|quiet,3,3.5,51.0,54,90,9.0,18.0,False,True
+P0218,Monument #218,Historical Site,Monument,38.717071,-9.154963,"A monument known for accessible, family-friendly vibes.",accessible|family-friendly|instagrammable,1,4.2,74.0,67,90,7.0,17.0,False,False
+P0219,Mall #219,Shopping,Mall,38.686492,-9.10189,"A mall known for family-friendly, instagrammable vibes.",family-friendly|instagrammable|local|romantic,3,4.4,81.0,66,30,7.0,20.0,False,True
+P0220,Boutique #220,Shopping,Boutique,38.739679,-9.134517,"A boutique known for family-friendly, local vibes.",family-friendly|local|modern,2,4.2,11.0,34,150,8.0,18.0,False,True
+P0221,Live Music #221,Event,Live Music,38.721097,-9.092571,"A live music known for budget, romantic vibes.",budget|romantic,2,3.6,131.0,72,90,9.0,22.0,False,True
+P0222,Boat Trip #222,Activity,Boat Trip,38.753085,-9.127642,"A boat trip known for indoor, modern vibes.",indoor|modern,3,4.0,20.0,44,180,9.0,18.0,False,True
+P0223,Market #223,Shopping,Market,38.717298,-9.106943,"A market known for hidden-gem, indoor vibes.",hidden-gem|indoor|instagrammable|local,3,4.4,106.0,70,150,7.0,23.0,False,True
+P0224,Viewpoint #224,Nature/Outdoor,Viewpoint,38.714028,-9.144252,"A viewpoint known for authentic, hidden-gem vibes.",authentic|hidden-gem|luxury|scenic,3,3.4,29.0,57,90,7.0,17.0,False,True
+P0225,Local Market #225,Neighborhood Experience,Local Market,38.726396,-9.153913,"A local market known for modern, scenic vibes.",modern|scenic,1,5.0,6.0,31,90,10.0,22.0,False,True
+P0226,History Museum #226,Museum,History Museum,38.727873,-9.12987,"A history museum known for family-friendly, hidden-gem vibes.",family-friendly|hidden-gem|modern,4,3.0,4.0,25,180,8.0,23.0,False,True
+P0227,Church #227,Historical Site,Church,38.709218,-9.127998,"A church known for indoor, instagrammable vibes.",indoor|instagrammable|outdoor|romantic|touristy,3,4.0,320.0,87,30,10.0,23.0,False,True
+P0228,Art Museum #228,Museum,Art Museum,38.729672,-9.173755,"A art museum known for budget, local vibes.",budget|local,1,4.3,13.0,37,120,9.0,18.0,False,False
+P0229,Boat Trip #229,Activity,Boat Trip,38.711185,-9.179724,"A boat trip known for local, quiet vibes.",local|quiet|touristy,2,3.8,435.0,94,180,10.0,20.0,False,True
+P0230,Ruins #230,Historical Site,Ruins,38.695051,-9.148841,"A ruins known for accessible, hidden-gem vibes.",accessible|hidden-gem|indoor|lively|local|modern,2,4.3,242.0,82,180,7.0,23.0,False,True
+P0231,Local Cuisine #231,Restaurant,Local Cuisine,38.713996,-9.127004,"A local cuisine known for indoor, local vibes.",indoor|local|touristy,2,4.1,19.0,50,45,8.0,17.0,False,False
+P0232,Boutique #232,Shopping,Boutique,38.672523,-9.188953,"A boutique known for authentic, hidden-gem vibes.",authentic|hidden-gem|indoor|lively|local,4,4.4,107.0,75,120,9.0,17.0,False,False
+P0233,Art Museum #233,Museum,Art Museum,38.711366,-9.172439,"A art museum known for family-friendly, scenic vibes.",family-friendly|scenic,2,4.1,78.0,71,180,9.0,20.0,False,True
+P0234,Park #234,Nature/Outdoor,Park,38.702759,-9.160445,"A park known for indoor, instagrammable vibes.",indoor|instagrammable|luxury|modern,2,4.4,69.0,68,180,8.0,23.0,False,True
+P0235,Cafe #235,Restaurant,Cafe,38.707429,-9.1129,"A cafe known for indoor, lively vibes.",indoor|lively,1,4.9,128.0,81,30,9.0,17.0,False,True
+P0236,Tour #236,Activity,Tour,38.742495,-9.144838,"A tour known for accessible, hidden-gem vibes.",accessible|hidden-gem|indoor|local|outdoor,1,4.8,8.0,29,45,9.0,17.0,True,True
+P0237,Mall #237,Shopping,Mall,38.740607,-9.129499,"A mall known for family-friendly, hidden-gem vibes.",family-friendly|hidden-gem|modern|touristy,3,4.0,13.0,40,90,7.0,23.0,False,True
+P0238,Art Museum #238,Museum,Art Museum,38.765695,-9.159886,"A art museum known for hidden-gem, historic vibes.",hidden-gem|historic|local|quiet|scenic,3,4.6,17.0,40,60,9.0,22.0,False,True
+P0239,Local Market #239,Neighborhood Experience,Local Market,38.741748,-9.144138,"A local market known for budget, local vibes.",budget|local|romantic,1,3.8,35.0,57,90,7.0,23.0,False,False
+P0240,Festival #240,Event,Festival,38.710311,-9.130313,"A festival known for family-friendly, historic vibes.",family-friendly|historic|romantic|scenic|touristy,1,5.0,7.0,36,150,7.0,18.0,False,True
+P0241,Castle #241,Historical Site,Castle,38.686877,-9.100081,"A castle known for budget, local vibes.",budget|local|quiet|scenic|touristy,2,4.0,24.0,49,30,10.0,22.0,False,True
+P0242,Ruins #242,Historical Site,Ruins,38.782483,-9.05684,,budget|local|romantic,2,,,71,45,,,False,True
+P0243,Church #243,Historical Site,Church,38.761672,-9.094664,"A church known for family-friendly, local vibes.",family-friendly|local,2,4.2,103.0,69,180,8.0,17.0,False,False
+P0244,Park #244,Nature/Outdoor,Park,38.71649,-9.167973,"A park known for hidden-gem, local vibes.",hidden-gem|local|touristy,1,3.6,94.0,63,180,10.0,22.0,True,True
+P0245,History Museum #245,Museum,History Museum,38.743247,-9.175585,"A history museum known for budget, hidden-gem vibes.",budget|hidden-gem|historic|local|luxury,1,4.5,10.0,41,120,8.0,20.0,False,False
+P0246,Live Music #246,Event,Live Music,38.73015,-9.093404,"A live music known for hidden-gem, historic vibes.",hidden-gem|historic|local|scenic,1,4.0,50.0,60,180,8.0,23.0,False,False
+P0247,Viewpoint #247,Nature/Outdoor,Viewpoint,38.688711,-9.133665,,budget|family-friendly|lively|local|outdoor|quiet,1,,,50,30,,,False,True
+P0248,Garden #248,Nature/Outdoor,Garden,38.738162,-9.166953,"A garden known for instagrammable, luxury vibes.",instagrammable|luxury|romantic|touristy,2,4.0,312.0,80,150,8.0,20.0,False,False
+P0249,Fine Dining #249,restaurant ,Fine Dining,38.765141,-9.135304,"A fine dining known for family-friendly, lively vibes.",family-friendly|lively|local|luxury|modern|romantic,1,4.7,26.0,52,60,7.0,20.0,False,True
+P0250,Walking Area #250,Neighborhood Experience,Walking Area,38.692321,-9.14145,"A walking area known for instagrammable, local vibes.",instagrammable|local|luxury|touristy,1,4.1,4.0,28,30,10.0,17.0,False,True
+P0251,History Museum #251,Museum,History Museum,38.695526,-9.125099,"A history museum known for local, quiet vibes.",local|quiet|touristy,1,3.7,12.0,39,45,7.0,23.0,False,False
+P0252,Garden #252,Nature/Outdoor,Garden,38.743723,-9.132343,"A garden known for budget, family-friendly vibes.",budget|family-friendly|luxury|quiet|romantic,1,4.0,12.0,39,90,10.0,20.0,False,False
+P0253,Park #253,Nature/Outdoor,Park,38.688369,-9.209813,"A park known for hidden-gem, lively vibes.",hidden-gem|lively|modern|scenic,3,4.3,46.0,56,150,7.0,23.0,False,False
+P0254,Fine Dining #254,Restaurant,Fine Dining,38.737778,-9.201802,"A fine dining known for accessible, hidden-gem vibes.",accessible|hidden-gem|indoor|local|romantic,3,4.2,2.0,15,45,9.0,20.0,True,False
+P0255,Church #255,Historical Site,Church,38.701202,-9.161591,"A church known for hidden-gem, historic vibes.",hidden-gem|historic|lively|local|romantic|touristy,1,4.4,814.0,100,30,9.0,20.0,False,False
+P0256,Cafe #256,Restaurant,Cafe,38.712842,-9.15637,"A cafe known for authentic, hidden-gem vibes.",authentic|hidden-gem|indoor|luxury|outdoor|touristy,2,3.8,346.0,89,90,9.0,23.0,True,False
+P0257,Local Market #257,Neighborhood Experience,Local Market,38.72415,-9.122147,"A local market known for budget, family-friendly vibes.",budget|family-friendly|hidden-gem|local|luxury|touristy,1,3.7,132.0,79,60,8.0,22.0,False,True
+P0258,Church #258,Historical Site,Church,38.738847,-9.148766,"A church known for authentic, family-friendly vibes.",authentic|family-friendly|hidden-gem|local|modern|quiet,1,3.5,63.0,69,30,9.0,18.0,False,True
+P0259,Boat Trip #259,Activity,Boat Trip,38.7826,-9.068506,,indoor|local|modern|touristy,2,,,57,90,,,False,True
+P0260,Boat Trip #260,Activity,Boat Trip,38.721646,-9.139844,"A boat trip known for family-friendly, instagrammable vibes.",family-friendly|instagrammable|local|outdoor|romantic,1,4.2,5.0,33,90,7.0,20.0,False,True
+P0261,Tour #261,Activity,Tour,38.699249,-9.197145,"A tour known for accessible, hidden-gem vibes.",accessible|hidden-gem|lively|local|luxury|outdoor,3,4.8,155.0,79,90,10.0,20.0,False,True
+P0262,Fine Dining #262,Restaurant,Fine Dining,38.733696,-9.066156,"A fine dining known for family-friendly, lively vibes.",family-friendly|lively,1,5.0,166.0,88,180,8.0,23.0,True,True
+P0263,Mall #263,Shopping,Mall,38.818093,-9.12735,"A mall known for budget, indoor vibes.",budget|indoor|instagrammable|outdoor|touristy,3,4.1,18.0,43,120,8.0,17.0,False,True
+P0264,Art Museum #264,Museum,Art Museum,38.714416,-9.088475,"A art museum known for budget, local vibes.",budget|local|outdoor|touristy,1,3.5,19.0,43,45,8.0,23.0,False,False
+P0265,Monument #265,Historical Site,Monument,38.716545,-9.188065,"A monument known for authentic, budget vibes.",authentic|budget|historic|local|quiet|scenic,2,4.6,13.0,41,180,10.0,17.0,False,True
+P0266,Monument #266,Historical Site,Monument,38.714143,-9.138207,"A monument known for lively, modern vibes.",lively|modern,2,4.6,96.0,66,150,10.0,23.0,False,True
+P0267,Workshop #267,Activity,Workshop,38.739331,-9.09916,"A workshop known for outdoor, scenic vibes.",outdoor|scenic|touristy,4,4.6,5.0,25,45,7.0,22.0,False,False
+P0268,Street Food #268,Restaurant,Street Food,38.764667,-9.142486,"A street food known for authentic, historic vibes.",authentic|historic|indoor|modern,4,4.2,138.0,78,180,8.0,18.0,True,False
+P0269,Viewpoint #269,Nature/Outdoor,Viewpoint,38.699129,-9.159384,"A viewpoint known for family-friendly, indoor vibes.",family-friendly|indoor|instagrammable|outdoor|romantic,1,4.4,57.0,65,180,9.0,17.0,False,True
+P0270,Boat Trip #270,Activity,Boat Trip,38.731426,-9.066985,"A boat trip known for authentic, budget vibes.",authentic|budget|family-friendly|local|romantic|touristy,1,4.3,615.0,100,180,7.0,18.0,True,True
+P0271,Garden #271,Nature/Outdoor,Garden,38.704065,-9.08742,"A garden known for authentic, historic vibes.",authentic|historic|lively|local,1,3.1,28.0,52,30,7.0,18.0,False,True
+P0272,History Museum #272,Museum,History Museum,38.771531,-9.129332,"A history museum known for authentic, budget vibes.",authentic|budget|lively|luxury,1,3.9,10.0,39,60,7.0,22.0,True,False
+P0273,Local Market #273,Neighborhood Experience,Local Market,38.759054,-9.137782,"A local market known for hidden-gem, historic vibes.",hidden-gem|historic|local|outdoor|quiet,1,4.1,43.0,59,180,7.0,22.0,False,True
+P0274,Fine Dining #274,Restaurant,Fine Dining,38.737415,-9.104586,"A fine dining known for hidden-gem, historic vibes.",hidden-gem|historic|modern|outdoor,1,3.7,56.0,61,45,10.0,20.0,False,False
+P0275,Mall #275,Shopping,Mall,38.727687,-9.125275,,lively|local,3,,,49,60,,,False,True
+P0276,Boat Trip #276,Activity,Boat Trip,38.732685,-9.201736,"A boat trip known for accessible, historic vibes.",accessible|historic|lively|quiet,1,4.6,53.0,56,45,8.0,23.0,False,False
+P0277,Mall #277,Shopping,Mall,38.710982,-9.154406,"A mall known for budget, indoor vibes.",budget|indoor|local|quiet,2,4.9,19.0,46,90,10.0,22.0,False,True
+P0278,Walking Area #278,Neighborhood Experience,Walking Area,38.714514,-9.109748,"A walking area known for hidden-gem, historic vibes.",hidden-gem|historic|instagrammable|lively|local,1,4.5,0.0,2,150,8.0,20.0,False,True
+P0279,Boat Trip #279,Activity,Boat Trip,38.706497,-9.112925,"A boat trip known for family-friendly, quiet vibes.",family-friendly|quiet|romantic|touristy,1,4.6,463.0,94,60,8.0,20.0,False,False
+P0280,Viewpoint #280,Nature/Outdoor,Viewpoint,38.715741,-9.135866,"A viewpoint known for hidden-gem, indoor vibes.",hidden-gem|indoor|local|romantic,1,4.1,65.0,63,120,7.0,22.0,False,True
+P0281,Mall #281,Shopping,Mall,38.690266,-9.101288,"A mall known for accessible, authentic vibes.",accessible|authentic|hidden-gem|local|touristy,4,3.7,116.0,81,60,10.0,23.0,False,False
+P0282,History Museum #282,Museum,History Museum,38.746152,-9.20434,"A history museum known for family-friendly, hidden-gem vibes.",family-friendly|hidden-gem|instagrammable|luxury,3,3.9,10.0,35,150,7.0,17.0,False,True
+P0283,Science Museum #283,Museum,Science Museum,38.729451,-9.100292,"A science museum known for accessible, family-friendly vibes.",accessible|family-friendly|instagrammable,3,3.7,41.0,60,90,10.0,22.0,False,True
+P0284,Artisan Street #284,Neighborhood Experience,Artisan Street,38.729531,-9.142333,"A artisan street known for authentic, hidden-gem vibes.",authentic|hidden-gem|local|quiet|scenic,1,3.9,40.0,61,30,8.0,18.0,False,True
+P0285,Art Museum #285,Museum,Art Museum,38.688908,-9.090428,"A art museum known for accessible, family-friendly vibes.",accessible|family-friendly|local|modern|touristy,2,5.0,18.0,53,150,9.0,22.0,False,False
+P0286,Viewpoint #286,Nature/Outdoor,Viewpoint,38.697003,-9.052462,"A viewpoint known for hidden-gem, local vibes.",hidden-gem|local|luxury|outdoor|scenic,4,4.1,12.0,39,150,8.0,18.0,False,True
+P0287,Art Museum #287,Museum,Art Museum,38.725511,-9.143521,"A art museum known for hidden-gem, local vibes.",hidden-gem|local|quiet|scenic|touristy,1,5.0,41.0,57,30,7.0,17.0,False,True
+P0288,Ruins #288,Historical Site,Ruins,38.73144,-9.239372,"A ruins known for budget, hidden-gem vibes.",budget|hidden-gem|historic|indoor|romantic|scenic,2,4.1,26.0,45,150,7.0,20.0,False,True
+P0289,Boat Trip #289,Activity,Boat Trip,38.643357,-9.100793,"A boat trip known for authentic, hidden-gem vibes.",authentic|hidden-gem|historic|romantic,3,3.6,46.0,69,30,7.0,22.0,False,True
+P0290,Boat Trip #290,Activity,Boat Trip,38.745563,-9.234674,"A boat trip known for authentic, budget vibes.",authentic|budget|lively|local,1,4.0,3.0,15,45,10.0,20.0,False,True
+P0291,Monument #291,Historical Site,Monument,38.71647,-9.174749,"A monument known for budget, family-friendly vibes.",budget|family-friendly|hidden-gem|historic|scenic|touristy,1,3.8,19.0,47,60,8.0,22.0,False,True
+P0292,Live Music #292,Event,Live Music,38.704592,-9.080077,"A live music known for luxury, touristy vibes.",luxury|touristy,3,4.2,28.0,49,150,9.0,22.0,False,True
+P0293,Local Cuisine #293,Restaurant,Local Cuisine,38.749151,-9.158622,"A local cuisine known for accessible, luxury vibes.",accessible|luxury|quiet,2,3.4,58.0,64,60,7.0,20.0,False,True
+P0294,Market #294,Shopping,Market,38.732584,-9.172592,"A market known for authentic, historic vibes.",authentic|historic|indoor|lively|scenic,2,3.8,4.0,16,180,8.0,17.0,False,False
+P0295,Art Museum #295,Museum,Art Museum,38.725718,-9.206278,"A art museum known for family-friendly, hidden-gem vibes.",family-friendly|hidden-gem|instagrammable|modern|outdoor,2,4.7,7.0,28,180,8.0,22.0,False,True
+P0296,Market #296,Shopping,Market,38.764628,-9.143244,"A market known for family-friendly, hidden-gem vibes.",family-friendly|hidden-gem|historic,3,3.7,24.0,50,180,8.0,20.0,False,True
+P0297,Ruins #297,Historical Site,Ruins,38.71278,-9.086041,"A ruins known for instagrammable, lively vibes.",instagrammable|lively|quiet,2,4.0,222.0,87,180,7.0,17.0,False,True
+P0298,Festival #298,Event,Festival,38.716056,-9.144442,"A festival known for family-friendly, instagrammable vibes.",family-friendly|instagrammable|local|luxury,2,4.2,116.0,66,30,8.0,23.0,False,True
+P0299,Local Market #299,Neighborhood Experience,Local Market,38.740855,-9.085868,"A local market known for accessible, authentic vibes.",accessible|authentic|hidden-gem|indoor|local|touristy,1,3.9,5.0,27,90,7.0,17.0,False,True
+P0300,Local Cuisine #300,Restaurant,Local Cuisine,38.699936,-9.177054,"A local cuisine known for accessible, hidden-gem vibes.",accessible|hidden-gem|local|outdoor|quiet,3,5.0,20.0,43,180,7.0,18.0,False,True
+P0301,Exhibition #301,Event,Exhibition,38.657617,-9.07946,"A exhibition known for hidden-gem, romantic vibes.",hidden-gem|romantic|scenic|touristy,1,3.7,24.0,52,60,9.0,23.0,False,False
+P0302,Fine Dining #302,Restaurant,Fine Dining,38.720053,-9.116226,"A fine dining known for accessible, authentic vibes.",accessible|authentic|budget|hidden-gem|local|modern|touristy,2,4.1,178.0,71,180,10.0,18.0,False,False
+P0303,Park #303,Nature/Outdoor,Park,38.735217,-9.233281,"A park known for authentic, indoor vibes.",authentic|indoor|romantic|scenic|touristy,1,4.1,8.0,35,45,10.0,17.0,False,True
+P0304,Mall #304,Shopping,Mall,38.698124,-9.100706,"A mall known for accessible, family-friendly vibes.",accessible|family-friendly|hidden-gem|lively|luxury|modern,2,3.4,20.0,54,90,9.0,23.0,False,True
+P0305,Walking Area #305,Neighborhood Experience,Walking Area,38.726556,-9.18389,"A walking area known for family-friendly, indoor vibes.",family-friendly|indoor|local|modern|quiet|scenic,1,3.7,11.0,39,150,9.0,23.0,False,False
+P0306,Local Market #306,Neighborhood Experience,Local Market,38.711446,-9.211451,"A local market known for hidden-gem, lively vibes.",hidden-gem|lively|modern,3,3.7,9.0,34,150,8.0,23.0,False,True
+P0307,Church #307,Historical Site,Church,38.653698,-9.13427,"A church known for accessible, authentic vibes.",accessible|authentic|hidden-gem|modern|outdoor,2,4.0,4.0,25,30,10.0,18.0,False,True
+P0308,Tour #308,Activity,Tour,38.735732,-9.202135,"A tour known for authentic, budget vibes.",authentic|budget|historic|local,2,4.1,4.0,20,180,7.0,20.0,False,True
+P0309,Artisan Street #309,Neighborhood Experience,Artisan Street,38.726,-9.113041,"A artisan street known for indoor, lively vibes.",indoor|lively|local|modern|quiet,1,3.6,5.0,26,180,9.0,23.0,False,False
+P0310,Artisan Street #310,Neighborhood Experience,Artisan Street,38.696349,-9.136855,"A artisan street known for hidden-gem, historic vibes.",hidden-gem|historic|indoor|lively|modern|scenic,1,3.6,118.0,76,150,8.0,20.0,False,False
+P0311,Castle #311,Historical Site,Castle,38.694718,-9.240512,"A castle known for accessible, local vibes.",accessible|local|outdoor|romantic,4,5.0,42.0,57,60,8.0,18.0,False,True
+P0312,Viewpoint #312,Nature/Outdoor,Viewpoint,38.765502,-9.167055,"A viewpoint known for budget, hidden-gem vibes.",budget|hidden-gem|local|touristy,3,4.1,164.0,81,150,9.0,22.0,False,True
+P0313,Church #313,Historical Site,Church,38.691713,-9.206842,"A church known for family-friendly, luxury vibes.",family-friendly|luxury|scenic,2,4.3,65.0,70,120,10.0,17.0,False,False
+P0314,Viewpoint #314,Nature/Outdoor,Viewpoint,38.72457,-9.153766,"A viewpoint known for accessible, modern vibes.",accessible|modern|outdoor|scenic,1,3.9,3.0,29,180,7.0,17.0,False,True
+P0315,Local Market #315,Neighborhood Experience,Local Market,38.721422,-9.094258,"A local market known for budget, outdoor vibes.",budget|outdoor|romantic|scenic|touristy,2,4.4,549.0,98,120,9.0,17.0,False,False
+P0316,Garden #316,Nature/Outdoor,Garden,38.700542,-9.129681,"A garden known for budget, hidden-gem vibes.",budget|hidden-gem|instagrammable|local|quiet|romantic|touristy,2,4.5,19.0,37,30,8.0,23.0,False,True
+P0317,Artisan Street #317,Neighborhood Experience,Artisan Street,38.750955,-9.054886,"A artisan street known for authentic, instagrammable vibes.",authentic|instagrammable|romantic,2,4.1,39.0,52,150,10.0,17.0,False,True
+P0318,Exhibition #318,Event,Exhibition,38.717762,-9.147096,"A exhibition known for accessible, family-friendly vibes.",accessible|family-friendly|local|touristy,3,4.1,103.0,77,30,8.0,20.0,False,True
+P0319,Market #319,Shopping,Market,38.696802,-9.110392,"A market known for local, quiet vibes.",local|quiet|scenic|touristy,3,3.6,185.0,78,120,7.0,23.0,True,False
+P0154_DUP,LOCAL MARKET #154,Neighborhood Experience,Local Market,38.716103,-9.167735,,indoor|instagrammable|touristy,1,,,93,90,,,False,False
+P0314_DUP,VIEWPOINT #314,Nature/Outdoor,Viewpoint,38.72457,-9.153766,"A viewpoint known for accessible, modern vibes.",accessible|modern|outdoor|scenic,1,3.9,3.0,29,180,7.0,17.0,False,True
+P0122_DUP,MARKET #122,Shopping,Market,38.738954,-9.209491,"A market known for lively, local vibes.",lively|local|scenic|touristy,2,4.1,14.0,41,150,7.0,23.0,False,True
+P0114_DUP,WALKING AREA #114,Neighborhood Experience,Walking Area,38.752771,-9.164392,"A walking area known for hidden-gem, historic vibes.",hidden-gem|historic|indoor|local|romantic,3,4.0,42.0,63,90,8.0,20.0,False,True
+P0257_DUP,LOCAL MARKET #257,Neighborhood Experience,Local Market,38.72415,-9.122147,"A local market known for budget, family-friendly vibes.",budget|family-friendly|hidden-gem|local|luxury|touristy,1,3.7,132.0,79,60,8.0,22.0,False,True
+P0259_DUP,BOAT TRIP #259,Activity,Boat Trip,38.7826,-9.068506,,indoor|local|modern|touristy,2,,,57,90,,,False,True
+P0269_DUP,VIEWPOINT #269,Nature/Outdoor,Viewpoint,38.699129,-9.159384,"A viewpoint known for family-friendly, indoor vibes.",family-friendly|indoor|instagrammable|outdoor|romantic,1,4.4,57.0,65,180,9.0,17.0,False,True
+P0157_DUP,TOUR #157,Activity,Tour,38.682062,-9.196345,"A tour known for modern, romantic vibes.",modern|romantic,2,4.1,243.0,88,90,10.0,18.0,False,True

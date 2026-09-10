@@ -1,0 +1,15 @@
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
