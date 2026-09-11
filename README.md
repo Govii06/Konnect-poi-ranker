@@ -47,7 +47,7 @@ exact versions the reported numbers were produced with.
 > and recreate it. Do not reuse it.
 
 ```bash
-git clone <this-repo-url>
+git clone https://github.com/Govii06/Konnect-poi-ranker.git
 cd konnect-poi-ranker
 
 python -m venv venv
