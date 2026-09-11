@@ -41,23 +41,61 @@ Ranked & weighted POI list -> downstream itinerary planner
 Requires Python 3.10+. Dependencies are pinned in `requirements.txt` to the
 exact versions the reported numbers were produced with.
 
+### Standard setup (`venv` + `pip`, no extra tools needed)
+
 > If a `venv/` directory is already present from a previous checkout, delete it
 > and recreate it. Do not reuse it.
 
 ```bash
+git clone <this-repo-url>
+cd konnect-poi-ranker
+
 python -m venv venv
 ```
 
+Activate it:
 ```bash
+# macOS / Linux
 source venv/bin/activate
+
+# Windows (PowerShell)
+venv\Scripts\Activate.ps1
 ```
+> If PowerShell blocks this with an execution-policy error, run
+> `Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass` first, then retry.
 
-On Windows (PowerShell) activate with `venv\Scripts\Activate.ps1`
-instead, then:
-
+Install dependencies:
 ```bash
+pip install --upgrade pip
 pip install -r requirements.txt
 ```
+
+### Optional: [uv](https://docs.astral.sh/uv/) instead of `venv`/`pip`
+
+If you already have `uv` installed, it's faster and manages its own Python
+interpreter, sidestepping system-Python quirks entirely:
+```bash
+uv venv --python 3.12
+uv pip install -r requirements.txt
+uv run python data/generate_data.py
+uv run python -m scripts.run_demo
+```
+(Everywhere below, prefix commands with `uv run` if you used this path.)
+
+### Troubleshooting
+
+- **`pip install` tries to compile pandas/numpy from source, or fails with an
+  SSL certificate error**: your `python` likely resolves to a non-standard
+  build (e.g. an MSYS2/mingw install on Windows) that lacks prebuilt-wheel
+  support for the pinned versions. Check with `where python` (Windows) or
+  `which python` (macOS/Linux) — it should point to a standard python.org or
+  Microsoft Store install, not an MSYS2/Cygwin path. Reinstalling from
+  [python.org](https://www.python.org/downloads/) resolves this, or use the
+  `uv` path above, which sidesteps the system interpreter entirely.
+- **`Access is denied` creating the venv on Windows**: the target folder is
+  likely inside a synced/locked directory (e.g. OneDrive) or needs Admin
+  rights. Try a plain local path (e.g. `C:\projects\...`) and/or run
+  PowerShell as Administrator.
 
 ## 1. Generate the synthetic dataset
 
